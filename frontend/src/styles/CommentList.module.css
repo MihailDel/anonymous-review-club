@@ -1,0 +1,59 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comment {
+  background: #f9f9fb;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+.author {
+  font-weight: 500;
+  color: #1d1d1f;
+}
+
+.date {
+  color: #86868b;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #ff3b30;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+}
+
+.deleteBtn:hover {
+  text-decoration: underline;
+}
+
+.deleteBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.content {
+  color: #424245;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.empty {
+  color: #86868b;
+  text-align: center;
+  padding: 16px 0;
+}
